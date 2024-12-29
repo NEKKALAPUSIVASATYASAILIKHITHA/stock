@@ -1,0 +1,78 @@
+/* Global Styles */
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Stock Table Styles */
+  .stock-table-container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .stock-table th, .stock-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stock-table th {
+    background-color: #f8f8f8;
+  }
+  
+  .stock-table td {
+    background-color: #fff;
+  }
+  
+  .stock-table td:last-child {
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* No data message */
+  .stock-table td[colspan="7"] {
+    font-style: italic;
+    color: #888;
+  }
+  

@@ -1,0 +1,87 @@
+/* StockTable.css */
+
+.stock-table-container {
+    width: 100%;
+    overflow-x: auto; /* Adds horizontal scroll if necessary */
+    margin: 20px 0;
+  }
+  
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 16px; /* Default font size for large screens */
+  }
+  
+  .stock-table th,
+  .stock-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .stock-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .stock-table td {
+    background-color: #fff;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336; /* Red */
+  }
+  
+  .delete-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .stock-table {
+      font-size: 14px; /* Reduce font size */
+    }
+  
+    .stock-table th,
+    .stock-table td {
+      padding: 8px; /* Adjust padding */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .stock-table {
+      font-size: 12px; /* Further reduce font size */
+    }
+  
+    .stock-table th,
+    .stock-table td {
+      padding: 6px; /* Further reduce padding */
+    }
+  
+    .edit-btn,
+    .delete-btn {
+      padding: 4px 8px; /* Smaller buttons */
+      font-size: 12px;
+    }
+  }
+  
